@@ -1,2 +1,2 @@
 # changecalculatorpython
-A change calculator using only pythong
+A change calculator using only python
