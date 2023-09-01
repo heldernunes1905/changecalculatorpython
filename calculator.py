@@ -1,3 +1,5 @@
+import random
+
 def calculatechange(change):
     
     changeamounts = [0] * 13 #create array with 13 spots for all the different types of changes that will be given out
@@ -50,10 +52,8 @@ def calculatechange(change):
 #payed = 100 #Test Value for what user inserted
 
 #value that has to be payed
-print("Value that needs to be payed: ")
-paying = input()
-paying = round(float(paying),2) #convert to float with 2 decimal places
-
+paying = round(random.uniform(0, 100),2) #choose random value and then convert to float with 2 decimal places
+print("Amount to be paid: %s " % paying)
 #value that user inserted
 print("Value inserted by user: ")
 payed = input() 
